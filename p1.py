@@ -4,7 +4,7 @@ import sys
 x = int(input("Pop = "))
 y = int(input("Sib = "))
 
-z = x // y
+z = x % y
 print(z)
 
 if z == 0:
