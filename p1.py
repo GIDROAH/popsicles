@@ -1,9 +1,10 @@
 import os 
 import sys
 
-x = int(input("Pop = "))
-y = int(input("Sib = "))
+x = int(input("Popsicles = "))
+y = int(input("Siblings = "))
 
+#formula of division
 z = x % y
 print(z)
 
